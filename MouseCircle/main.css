@@ -1,0 +1,38 @@
+.main-menu .container li {
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  border-radius: 10%;
+  width: 100px;
+  list-style: none;
+}
+
+.main-menu .container {
+  display: inline-block;
+}
+
+.main-menu .drop{
+  float:left;
+  position:absolute;
+  z-index: 100;
+  display: none;
+}
+.main-menu .drop a{
+  position:relative;
+  display: block;
+  text-decoration: none;
+  padding: 10px 14px;
+  z-index: 100;
+  min-width: inherit;
+  background: yellow;
+}
+
+.main-menu .drop a:hover{
+  position:relative;
+  display: block;
+  background: #ddd;
+  text-decoration: none;
+  padding: 10px 14px;
+  z-index: 100;
+  min-width: inherit;
+}
